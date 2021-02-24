@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'SFProDisplay-Black';
+  src: url('SFProDisplay-Black.eot?#iefix') format('embedded-opentype'),  url('SFProDisplay-Black.otf')  format('opentype'),
+	     url('SFProDisplay-Black.woff') format('woff'), url('SFProDisplay-Black.ttf')  format('truetype'), url('SFProDisplay-Black.svg#SFProDisplay-Black') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,113 @@
+/* SF-Pro-Display */
+
+@font-face {
+  font-family: 'SFProDisplay-Black';
+  font-style: normal;
+  font-weight: 400;
+  src: url('static/fonts/SF-Pro-Display/SFProDisplay-Black/');
+  src: local('SFProDisplay-Black'), local('SFProDisplay-Black'),
+    url('static/fonts/SF-Pro-Display/SFProDisplay-Black/SFProDisplay-Black.woff')
+      format('woff'),
+    url('static/fonts/SF-Pro-Display/SFProDisplay-Black/SFProDisplay-Black.ttf')
+      format('truetype'),
+    url('static/fonts/SF-Pro-Display/SFProDisplay-Black/SFProDisplay-Black.svg')
+      format('svg');
+}
+
+@font-face {
+  font-family: 'SFProDisplay-Bold';
+  font-style: normal;
+  font-weight: 400;
+  src: url('static/fonts/SF-Pro-Display/SFProDisplay-Bold/');
+  src: local('SFProDisplay-Bold'), local('SFProDisplay-Bold'),
+    url('static/fonts/SF-Pro-Display/SFProDisplay-Bold/SFProDisplay-Bold.woff')
+      format('woff'),
+    url('static/fonts/SF-Pro-Display/SFProDisplay-Bold/SFProDisplay-Bold.ttf')
+      format('truetype'),
+    url('static/fonts/SF-Pro-Display/SFProDisplay-Bold/SFProDisplay-Bold.svg')
+      format('svg');
+}
+
+@font-face {
+  font-family: 'SFProDisplay-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('static/fonts/SF-Pro-Display/SFProDisplay-Regular/');
+  src: local('SFProDisplay-Regular'), local('SFProDisplay-Regular'),
+    url('static/fonts/SF-Pro-Display/SFProDisplay-Regular/SFProDisplay-Regular.woff')
+      format('woff'),
+    url('static/fonts/SF-Pro-Display/SFProDisplay-Regular/SFProDisplay-Regular.ttf')
+      format('truetype'),
+    url('static/fonts/SF-Pro-Display/SFProDisplay-Regular/SFProDisplay-Regular.svg')
+      format('svg');
+}
+
+@font-face {
+  font-family: 'SFProDisplay-Semibold';
+  font-style: normal;
+  font-weight: 400;
+  src: url('static/fonts/SF-Pro-Display/SFProDisplay-Semibold/');
+  src: local('SFProDisplay-Semibold'), local('SFProDisplay-Semibold'),
+    url('static/fonts/SF-Pro-Display/SFProDisplay-Semibold/SFProDisplay-Semibold.woff')
+      format('woff'),
+    url('static/fonts/SF-Pro-Display/SFProDisplay-Semibold/SFProDisplay-Semibold.ttf')
+      format('truetype'),
+    url('static/fonts/SF-Pro-Display/SFProDisplay-Semibold/SFProDisplay-Semibold.svg')
+      format('svg');
+}
+
+@font-face {
+  font-family: 'SFProDisplay-Thin';
+  font-style: normal;
+  font-weight: 400;
+  src: url('static/fonts/SF-Pro-Display/SFProDisplay-Thin/');
+  src: local('SFProDisplay-Thin'), local('SFProDisplay-Thin'),
+    url('static/fonts/SF-Pro-Display/SFProDisplay-Thin/SFProDisplay-Thin.woff')
+      format('woff'),
+    url('static/fonts/SF-Pro-Display/SFProDisplay-Thin/SFProDisplay-Thin.ttf')
+      format('truetype'),
+    url('static/fonts/SF-Pro-Display/SFProDisplay-Thin/SFProDisplay-Thin.svg')
+      format('svg');
+}
+
+/* SFCompactDisplay-Thin */
+
+@font-face {
+  font-family: 'SFCompactDisplay-Thin';
+  font-style: normal;
+  font-weight: 400;
+  src: url('static/fonts/SF-Compact-Display/');
+  src: local('SFCompactDisplay-Thin'), local('SFCompactDisplay-Thin'),
+    url('static/fonts/SF-Compact-Display/SF-Compact-Display-Thin/SFCompactDisplay-Thin.woff')
+      format('woff'),
+    url('static/fonts/SF-Compact-Display/SF-Compact-Display-Thin/SFCompactDisplay-Thin.ttf')
+      format('truetype'),
+    url('static/fonts/SF-Compact-Display/SF-Compact-Display-Thin/SFCompactDisplay-Thin.svg')
+      format('svg');
+}
+
+/* Bebas-Neue regular */
+
+@font-face {
+  font-family: 'BebasNeue-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('static/fonts/Bebas-Neue/');
+  src: local('SFCompactDisplay-Thin'), local('SFCompactDisplay-Thin'),
+    url('static/fonts/Bebas-Neue/BebasNeue-Regular.woff')
+      format('woff'),
+    url('static/fonts/Bebas-Neue/BebasNeue-Regular.ttf')
+      format('truetype')
+  }
+
+body {
+  font-family: 'SFProDisplay-Regular';
+
+  /* Se dar unset o menu mobile vai quebrar */
+  /* overflow: unset !important; */
+}
+
+#root {
+  /* Se dar unset o menu mobile vai quebrar */
+  overflow-x: unset !important;
+}

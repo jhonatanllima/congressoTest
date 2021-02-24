@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'SFProDisplay-Thin';
+  src: url('SFProDisplay-Thin.eot?#iefix') format('embedded-opentype'),  url('SFProDisplay-Thin.otf')  format('opentype'),
+	     url('SFProDisplay-Thin.woff') format('woff'), url('SFProDisplay-Thin.ttf')  format('truetype'), url('SFProDisplay-Thin.svg#SFProDisplay-Thin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
