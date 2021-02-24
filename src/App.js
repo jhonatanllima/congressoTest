@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Global />
-      <BrowserRouter basename={'/congressodevaquejada'}>
+      <BrowserRouter>
         <Routes />
       </BrowserRouter>
     </>
